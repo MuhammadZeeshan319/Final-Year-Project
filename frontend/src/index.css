@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+/* EduPath field & career module -- colour tokens (usable as bg-trail, text-ink, border-line ...) */
+@theme {
+  --color-ink: #12263a;
+  --color-paper: #f5f8fa;
+  --color-trail: #17708a;
+  --color-trail-dark: #0f5468;
+  --color-sun: #f2a93b;
+  --color-sun-soft: #fdf0d8;
+  --color-line: #d5dee6;
+  --color-muted: #5b6b7b;
+  --color-bar: #c9dde6;
+}

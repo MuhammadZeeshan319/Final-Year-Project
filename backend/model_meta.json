@@ -1,0 +1,54 @@
+{
+  "n_fields": 15,
+  "classes": [
+    "Agriculture & Veterinary Sciences",
+    "Architecture & Built Environment",
+    "Arts, Design & Humanities",
+    "Business & Management",
+    "Computer Science & Information Technology",
+    "Education & Teaching",
+    "Engineering & Technology",
+    "Environmental & Earth Sciences",
+    "Hospitality, Tourism & Sports",
+    "Law & Legal Studies",
+    "Mathematics & Statistics",
+    "Media & Communication",
+    "Medical & Health Sciences",
+    "Natural & Physical Sciences",
+    "Social Sciences"
+  ],
+  "holdout_logreg": {
+    "top1": 0.28072577884286204,
+    "top3": 0.5487846627867169,
+    "top5": 0.7107155083875385
+  },
+  "holdout_gradient_boosting": {
+    "top1": 0.3019513865114687,
+    "top3": 0.5710373159876755,
+    "top5": 0.7408421773365286
+  },
+  "cv5_logreg": {
+    "top1": 0.2880427338720723,
+    "top3": 0.5586905903300917,
+    "top5": 0.7234625393781674
+  },
+  "biggest_class_rate": 0.1920575145498117,
+  "n_train_rows": 14602,
+  "class_counts": {
+    "Medical & Health Sciences": 2805,
+    "Business & Management": 2103,
+    "Engineering & Technology": 1800,
+    "Natural & Physical Sciences": 1458,
+    "Arts, Design & Humanities": 1437,
+    "Social Sciences": 1237,
+    "Education & Teaching": 938,
+    "Law & Legal Studies": 707,
+    "Hospitality, Tourism & Sports": 590,
+    "Computer Science & Information Technology": 569,
+    "Media & Communication": 448,
+    "Architecture & Built Environment": 165,
+    "Agriculture & Veterinary Sciences": 153,
+    "Mathematics & Statistics": 98,
+    "Environmental & Earth Sciences": 94
+  }
+}
