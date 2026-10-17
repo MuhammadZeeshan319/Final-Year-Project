@@ -1,0 +1,105 @@
+===== student-scores-6k.csv::csv =====
+rows=6000  cols=17
+exact duplicate rows: 0 (0.0%)
+duplicate rows ignoring ID/name/time cols ['id', 'first_name', 'last_name', 'email']: 4000 (66.7%)
+
+-- columns --
+column                                   dtype      missing%   nuniq  example / range  [uniform-p]
+id                                       int64          0.0%    6000  [1 .. 6000] mean=3000.50 sd=1732.20  [uniform-p=1.0 <-- looks UNIFORM]
+first_name                               str            0.0%     453  Michael | David | Jennifer
+last_name                                str            0.0%     707  Smith | Jones | Miller
+email                                    str            0.0%    2000  paul.casey.1@gslingacadem | danielle.sandoval.2@gslin | tina.andrews.3@gslingacad
+gender                                   str            0.0%       2  female | male
+part_time_job                            bool           0.0%       2  [False .. True] mean=0.16 sd=0.36
+absence_days                             int64          0.0%      11  [0 .. 10] mean=3.67 sd=2.63  [uniform-p=0.0]
+extracurricular_activities               bool           0.0%       2  [False .. True] mean=0.20 sd=0.40
+weekly_self_study_hours                  int64          0.0%      50  [0 .. 50] mean=17.76 sd=12.13  [uniform-p=0.0]
+career_aspiration                        str            0.0%      17  Software Engineer | Business Owner | Social Network Studies
+math_score                               int64          0.0%      61  [40 .. 100] mean=83.45 sd=13.22  [uniform-p=0.0]
+history_score                            int64          0.0%      51  [50 .. 100] mean=80.33 sd=12.73  [uniform-p=0.0]
+physics_score                            int64          0.0%      50  [50 .. 100] mean=81.34 sd=12.54  [uniform-p=0.0]
+chemistry_score                          int64          0.0%      51  [50 .. 100] mean=80.00 sd=12.78  [uniform-p=0.0]
+biology_score                            int64          0.0%      68  [30 .. 100] mean=79.58 sd=13.72  [uniform-p=0.0]
+english_score                            int64          0.0%      50  [50 .. 99] mean=81.28 sd=12.03  [uniform-p=0.0]
+geography_score                          int64          0.0%      41  [60 .. 100] mean=80.89 sd=11.64  [uniform-p=0.0]
+
+-- candidate TARGET columns (name matches field/major/career/...) --
+
+[part_time_job]  2 classes; largest = 84.2%
+      5052  False
+       948  True
+
+[weekly_self_study_hours]  50 classes; largest = 5.1%
+       306  3
+       306  4
+       282  5
+       267  2
+       267  1
+       210  0
+       210  31
+       198  24
+       195  35
+       195  32
+       186  34
+       186  15
+       183  26
+       180  27
+       177  29
+       165  28
+       165  14
+       165  21
+       156  33
+       153  16
+       147  30
+       144  18
+       141  25
+       117  23
+       114  19
+       114  12
+       111  11
+       108  22
+       105  17
+        96  20
+        90  13
+        90  10
+        84  8
+        78  9
+        69  6
+        66  7
+        27  46
+        24  47
+        21  42
+        15  48
+    ... 10 more classes
+
+[career_aspiration]  17 classes; largest = 15.8%
+       945  Software Engineer
+       927  Business Owner
+       669  Social Network Studies
+       507  Banker
+       414  Lawyer
+       378  Accountant
+       357  Doctor
+       249  Real Estate Developer
+       219  Stock Investor
+       204  Construction Engineer
+       201  Artist
+       189  Game Developer
+       183  Government Officer
+       177  Teacher
+       168  Designer
+       117  Scientist
+        96  Writer
+
+-- generated-data signals --
+email col email: top domains {'gslingacademy.com': 6000}  fake-domain share=0.0%
+constant columns: []
+near-unique non-ID columns (possible IDs / free text): []
+
+-- first 5 rows --
+   id first_name last_name                                  email  gender  part_time_job  absence_days  extracurricular_activities  weekly_self_study_hours       career_aspiration  math_score  history_score  physics_score  chemistry_score  biology_score  english_score  geography_score
+0   1       Paul     Casey         paul.casey.1@gslingacademy.com    male          False             3                       False                       27                  Lawyer          73             81             93               97             63             80               87
+1   2   Danielle  Sandoval  danielle.sandoval.2@gslingacademy.com  female          False             2                       False                       47                  Doctor          90             86             96              100             90             88               90
+2   3       Tina   Andrews       tina.andrews.3@gslingacademy.com  female          False             9                        True                       13      Government Officer          81             97             95               96             65             77               94
+3   4       Tara     Clark         tara.clark.4@gslingacademy.com  female          False             5                       False                        3                  Artist          71             74             88               80             89             63               86
+4   5    Anthony    Campos     anthony.campos.5@gslingacademy.com    male          False             5                       False                       10  Social Network Studies          84             77             65               65             80             74               76

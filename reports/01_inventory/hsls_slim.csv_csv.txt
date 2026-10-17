@@ -1,0 +1,238 @@
+===== hsls_slim.csv::csv =====
+rows=23503  cols=123
+exact duplicate rows: 0 (0.0%)
+duplicate rows ignoring ID/name/time cols ['STU_ID']: 12 (0.1%)
+
+-- columns --
+column                                   dtype      missing%   nuniq  example / range  [uniform-p]
+STU_ID                                   int64          0.0%   23503  [10001 .. 35206] mean=22594.79 sd=7269.60  [uniform-p=1.0 <-- looks UNIFORM]
+X1TXMTH                                  float64        0.0%   15970  [-8.0 .. 3.0283] mean=-0.67 sd=2.45  [uniform-p=0.0]
+X1TXMSCR                                 float64        0.0%   20893  [-8.0 .. 69.9317] mean=35.96 sd=17.79  [uniform-p=0.0]
+X1TXMTSCOR                               float64        0.0%   20741  [-8.0 .. 82.1876] mean=45.93 sd=19.29  [uniform-p=0.0]
+X1TXMQUINT                               int64          0.0%       6  [-8 .. 5] mean=2.17 sd=3.43  [uniform-p=0.0]
+X1MTHID                                  float64        0.0%      18  [-9.0 .. 1.76] mean=-0.78 sd=2.63  [uniform-p=0.0]
+X1MTHUTI                                 float64        0.0%      62  [-9.0 .. 1.31] mean=-1.55 sd=3.20  [uniform-p=0.0]
+X1MTHEFF                                 float64        0.0%     168  [-9.0 .. 1.62] mean=-1.52 sd=3.24  [uniform-p=0.0]
+X1MTHINT                                 float64        0.0%     224  [-9.0 .. 2.08] mean=-1.66 sd=3.35  [uniform-p=0.0]
+X1SCIID                                  float64        0.0%      18  [-9.0 .. 2.15] mean=-0.79 sd=2.66  [uniform-p=0.0]
+X1SCIUTI                                 float64        0.0%      65  [-9.0 .. 1.69] mean=-1.97 sd=3.44  [uniform-p=0.0]
+X1SCIEFF                                 float64        0.0%     160  [-9.0 .. 1.83] mean=-1.97 sd=3.46  [uniform-p=0.0]
+X1SCIINT                                 float64        0.0%     202  [-9.0 .. 2.03] mean=-2.10 sd=3.54  [uniform-p=0.0]
+X1STU30OCC2                              int64          0.0%      25  [-9 .. 99] mean=43.05 sd=36.00  [uniform-p=0.0]
+X1STU30OCC6                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X1STU30OCC_STEM1                         int64          0.0%       8  [-9 .. 9] mean=0.21 sd=3.44  [uniform-p=0.0]
+X1STU30OCC_STEM2                         int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X1STUEDEXPCT                             int64          0.0%      12  [-8 .. 11] mean=6.32 sd=5.29  [uniform-p=0.0]
+X2TXMTH                                  float64        0.0%   16076  [-8.0 .. 4.5046] mean=-0.36 sd=3.07  [uniform-p=0.0]
+X2TXMSCR                                 float64        0.0%   20223  [-8.0 .. 115.1] mean=57.91 sd=30.62  [uniform-p=0.0]
+X2MTHID                                  float64        0.0%      18  [-9.0 .. 1.82] mean=-1.16 sd=3.07  [uniform-p=0.0]
+X2MTHUTI                                 float64        0.0%      62  [-9.0 .. 1.21] mean=-1.23 sd=3.07  [uniform-p=0.0]
+X2MTHEFF                                 float64        0.0%     180  [-9.0 .. 1.73] mean=-1.27 sd=3.16  [uniform-p=0.0]
+X2MTHINT_R                               float64        0.0%     139  [-9.0 .. 2.17] mean=-2.17 sd=3.62  [uniform-p=0.0]
+X2SCIID                                  float64        0.0%      18  [-9.0 .. 1.86] mean=-1.20 sd=3.10  [uniform-p=0.0]
+X2SCIUTI                                 float64        0.0%      32  [-9.0 .. 0.1] mean=-1.27 sd=2.97  [uniform-p=0.0]
+X2SCIEFF                                 float64        0.0%     148  [-9.0 .. 1.64] mean=-1.36 sd=3.24  [uniform-p=0.0]
+X2SCIINT                                 float64        0.0%     162  [-9.0 .. 1.71] mean=-2.66 sd=3.76  [uniform-p=0.0]
+X2STU30OCC2                              int64          0.0%      25  [-9 .. 99] mean=39.70 sd=36.05  [uniform-p=0.0]
+X2STU30OCC6                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X2STU30OCC_STEM1                         int64          0.0%       8  [-9 .. 9] mean=-0.08 sd=3.66  [uniform-p=0.0]
+X2STU30OCC_STEM2                         int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X2STUEDEXPCT                             int64          0.0%      14  [-8 .. 13] mean=6.51 sd=6.21  [uniform-p=0.0]
+X3TCREDENG                               float64        0.0%      19  [-8.0 .. 9.0] mean=3.09 sd=3.24  [uniform-p=0.0]
+X3TGPAENG                                float64        0.0%      12  [-9.0 .. 4.0] mean=1.85 sd=2.85  [uniform-p=0.0]
+X3TCREDMAT                               float64        0.0%      17  [-8.0 .. 8.0] mean=2.80 sd=3.15  [uniform-p=0.0]
+X3THIMATH                                int64          0.0%      16  [-9 .. 13] mean=7.02 sd=5.14  [uniform-p=0.0]
+X3TGPAMAT                                float64        0.0%      12  [-9.0 .. 4.0] mean=1.63 sd=2.81  [uniform-p=0.0]
+X3TCREDSCI                               float64        0.0%      17  [-8.0 .. 8.0] mean=2.49 sd=3.09  [uniform-p=0.0]
+X3THISCI                                 int64          0.0%       7  [-9 .. 5] mean=1.32 sd=2.89  [uniform-p=0.0]
+X3TGPASCI                                float64        0.0%      12  [-9.0 .. 4.0] mean=1.69 sd=2.83  [uniform-p=0.0]
+X3TCREDSOCST                             float64        0.0%      18  [-8.0 .. 8.0] mean=2.72 sd=3.17  [uniform-p=0.0]
+X3TGPASOCST                              float64        0.0%      12  [-9.0 .. 4.0] mean=1.86 sd=2.87  [uniform-p=0.0]
+X3TCREDART                               float64        0.0%      19  [-8.0 .. 9.0] mean=1.18 sd=3.02  [uniform-p=0.0]
+X3TGPAART                                float64        0.0%      12  [-9.0 .. 4.0] mean=1.77 sd=3.23  [uniform-p=0.0]
+X3TCREDLANG                              float64        0.0%      14  [-8.0 .. 7.0] mean=1.19 sd=2.77  [uniform-p=0.0]
+X3TGPALANG                               float64        0.0%      12  [-9.0 .. 4.0] mean=1.35 sd=3.04  [uniform-p=0.0]
+X3TCREDCOMPSCI                           float64        0.0%      11  [-8.0 .. 5.0] mean=-0.09 sd=2.22  [uniform-p=0.0]
+X3TGPACOMPSCI                            float64        0.0%      12  [-9.0 .. 4.0] mean=0.26 sd=3.13  [uniform-p=0.0]
+X3TCREDCOM                               float64        0.0%      10  [-8.0 .. 5.0] mean=-0.28 sd=2.16  [uniform-p=0.0]
+X3TGPACOM                                float64        0.0%      11  [-9.0 .. 4.0] mean=-0.54 sd=2.74  [uniform-p=0.0]
+X3TCREDBUS                               float64        0.0%      12  [-8.0 .. 6.0] mean=-0.20 sd=2.21  [uniform-p=0.0]
+X3TGPABUS                                float64        0.0%      12  [-9.0 .. 4.0] mean=-0.31 sd=2.82  [uniform-p=0.0]
+X3TCREDHELSCI                            float64        0.0%      12  [-8.0 .. 7.0] mean=-0.36 sd=2.17  [uniform-p=0.0]
+X3TGPAHELSCI                             float64        0.0%      11  [-9.0 .. 4.0] mean=-1.09 sd=2.24  [uniform-p=0.0]
+X3TCREDPUBSER                            float64        0.0%       8  [-8.0 .. 4.0] mean=-0.46 sd=2.05  [uniform-p=0.0]
+X3TCREDARCH                              float64        0.0%       9  [-8.0 .. 5.0] mean=-0.41 sd=2.10  [uniform-p=0.0]
+X3TCREDAG                                float64        0.0%      12  [-8.0 .. 7.0] mean=-0.36 sd=2.16  [uniform-p=0.0]
+X3TGPAAG                                 float64        0.0%      11  [-9.0 .. 4.0] mean=-1.08 sd=2.24  [uniform-p=0.0]
+X3TCREDHUMSER                            float64        0.0%      10  [-8.0 .. 5.0] mean=-0.41 sd=2.09  [uniform-p=0.0]
+X3TCREDENGIN                             float64        0.0%      10  [-8.0 .. 5.0] mean=-0.37 sd=2.11  [uniform-p=0.0]
+X3TGPAENGIN                              float64        0.0%      11  [-9.0 .. 4.0] mean=-0.95 sd=2.36  [uniform-p=0.0]
+X3TCREDTOT                               float64        0.0%      70  [-8.0 .. 36.0] mean=22.05 sd=10.71  [uniform-p=0.0]
+X3TCREDACAD                              float64        0.0%      62  [-8.0 .. 31.0] mean=16.16 sd=8.70  [uniform-p=0.0]
+X3TCREDCTE                               float64        0.0%      26  [-8.0 .. 12.0] mean=2.08 sd=3.57  [uniform-p=0.0]
+X3TCREDSTEM                              float64        0.0%      32  [-8.0 .. 16.0] mean=6.44 sd=4.66  [uniform-p=0.0]
+X3TCREDAP                                int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X3TCREDIB                                int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X3TGPAACAD                               float64        0.0%      12  [-9.0 .. 4.0] mean=1.84 sd=2.82  [uniform-p=0.0]
+X3TGPASTEM                               float64        0.0%      12  [-9.0 .. 4.0] mean=1.70 sd=2.80  [uniform-p=0.0]
+X3TGPATOT                                float64        0.0%      11  [-9.0 .. 4.0] mean=1.97 sd=2.85  [uniform-p=0.0]
+X3TACADTRCK                              int64          0.0%       3  [-8 .. 1] mean=-0.19 sd=2.14
+X3TXSATMATH                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X3TXSATREAD                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X3TXACTCOMP                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X4ENTMJST                                int64          0.0%       6  [-9 .. 1] mean=-3.35 sd=3.93  [uniform-p=0.0]
+X4ENTRYMAJ23                             int64          0.0%      26  [-9 .. 23] mean=1.81 sd=9.69  [uniform-p=0.0]
+X4ENTRYMAJ2Y                             int64          0.0%      15  [-9 .. 11] mean=-0.03 sd=7.44  [uniform-p=0.0]
+X4ENTRYMAJ4Y                             int64          0.0%      14  [-9 .. 10] mean=-0.27 sd=7.11  [uniform-p=0.0]
+X5HIGHCIP                                int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X5HIGH23MAJ                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X5HIGH10MAJ                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X5HIGH11MAJ                              int64          0.0%      15  [-9 .. 11] mean=-6.23 sd=3.15  [uniform-p=0.0]
+X6HIGHCIP                                int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X6HIGH23MAJ                              int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+X6HIGH11MAJ                              int64          0.0%      14  [-9 .. 11] mean=-2.02 sd=7.40  [uniform-p=0.0]
+S1MCLUB                                  int64          0.0%       4  [-9 .. 1] mean=-0.81 sd=2.50
+S1MCOMPETE                               int64          0.0%       4  [-9 .. 1] mean=-0.80 sd=2.50
+S1MCAMP                                  int64          0.0%       4  [-9 .. 1] mean=-0.84 sd=2.49
+S1MTUTOR                                 int64          0.0%       4  [-9 .. 1] mean=-0.79 sd=2.51
+S1SCLUB                                  int64          0.0%       4  [-9 .. 1] mean=-0.82 sd=2.49
+S1SCOMPETE                               int64          0.0%       4  [-9 .. 1] mean=-0.81 sd=2.50
+S1SCAMP                                  int64          0.0%       4  [-9 .. 1] mean=-0.83 sd=2.49
+S1STUTOR                                 int64          0.0%       4  [-9 .. 1] mean=-0.83 sd=2.49
+S1SBOOKS                                 int64          0.0%       6  [-9 .. 4] mean=1.28 sd=3.24  [uniform-p=0.0]
+S1WEBINFO                                int64          0.0%       6  [-9 .. 4] mean=1.26 sd=3.31  [uniform-p=0.0]
+S1SMUSEUM                                int64          0.0%       6  [-9 .. 4] mean=0.89 sd=3.10  [uniform-p=0.0]
+S1M8GRADE                                int64          0.0%       9  [-9 .. 6] mean=0.94 sd=3.28  [uniform-p=0.0]
+S1S8GRADE                                int64          0.0%       9  [-9 .. 6] mean=0.74 sd=3.40  [uniform-p=0.0]
+S1FAVSUBJ                                int64          0.0%      15  [-9 .. 13] mean=4.84 sd=5.48  [uniform-p=0.0]
+S1LEASTSUBJ                              int64          0.0%      15  [-9 .. 13] mean=3.98 sd=5.50  [uniform-p=0.0]
+S1EDUEXPECT                              int64          0.0%      13  [-9 .. 11] mean=6.11 sd=5.56  [uniform-p=0.0]
+S1OCC30                                  int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+S1OCC30THINK                             int64          0.0%       7  [-9 .. 4] mean=-0.44 sd=5.31  [uniform-p=0.0]
+S2EDUEXP                                 int64          0.0%      15  [-9 .. 13] mean=6.49 sd=6.24  [uniform-p=0.0]
+S2OCC30                                  int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+S2OCC30THINK                             int64          0.0%       7  [-9 .. 4] mean=-0.46 sd=5.44  [uniform-p=0.0]
+S2OCC30CERTAIN                           int64          0.0%       6  [-9 .. 3] mean=-1.70 sd=4.49  [uniform-p=0.0]
+S2FAVSUBJ                                int64          0.0%      15  [-9 .. 13] mean=4.51 sd=6.11  [uniform-p=0.0]
+S2FFA                                    int64          0.0%       4  [-9 .. 1] mean=-1.26 sd=3.04
+S2HOSA                                   int64          0.0%       4  [-9 .. 1] mean=-1.28 sd=3.04
+S2MUSIC                                  int64          0.0%       4  [-9 .. 1] mean=-0.87 sd=3.03
+S2ART                                    int64          0.0%       4  [-9 .. 1] mean=-1.03 sd=2.99
+S2DRAMA                                  int64          0.0%       4  [-9 .. 1] mean=-1.09 sd=2.97
+S2SPORTS                                 int64          0.0%       4  [-9 .. 1] mean=-0.76 sd=3.08
+S2CLUB                                   int64          0.0%       4  [-9 .. 1] mean=-1.05 sd=3.03
+S2ACADEMIC                               int64          0.0%       4  [-9 .. 1] mean=-1.08 sd=2.95
+S3FIELD                                  int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+S3FIELD2                                 int64          0.0%      39  [-9 .. 99] mean=14.33 sd=24.95  [uniform-p=0.0]
+S3FIELD6                                 int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+S4FIELD                                  int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+S4FIELD2                                 int64          0.0%      39  [-9 .. 99] mean=14.82 sd=24.88  [uniform-p=0.0]
+S4FIELD6                                 int64          0.0%       1  [-5 .. -5] mean=-5.00 sd=0.00
+
+-- candidate TARGET columns (name matches field/major/career/...) --
+
+[S3FIELD]  1 classes; largest = 100.0%
+     23503  -5
+
+[S3FIELD2]  39 classes; largest = 21.4%
+      5022  -7
+      4945  -8
+      2418  51
+      1590  52
+      1161  14
+      1148  -1
+       875  26
+       766  13
+       601  50
+       588  -4
+       441  43
+       423  42
+       395  11
+       316  24
+       287  45
+       233  9
+       228  12
+       175  40
+       161  -9
+       160  31
+       146  99
+       143  47
+       140  15
+       116  22
+       112  1
+        96  23
+        89  10
+        88  60
+        83  30
+        76  3
+        70  4
+        68  54
+        60  27
+        56  44
+        53  48
+        47  16
+        46  46
+        42  19
+        39  49
+
+[S3FIELD6]  1 classes; largest = 100.0%
+     23503  -5
+
+[S4FIELD]  1 classes; largest = 100.0%
+     23503  -5
+
+[S4FIELD2]  39 classes; largest = 26.2%
+      6168  -8
+      4280  -7
+      2211  51
+      1718  52
+      1050  26
+      1043  14
+       760  13
+       695  -1
+       579  50
+       535  42
+       487  11
+       454  43
+       394  45
+       307  9
+       269  24
+       247  31
+       232  40
+       215  12
+       214  -9
+       170  47
+       131  23
+       126  1
+       123  15
+       104  54
+       102  99
+        94  30
+        89  27
+        85  44
+        82  3
+        75  22
+        64  48
+        63  46
+        61  19
+        61  4
+        55  60
+        53  10
+        53  16
+        42  49
+        12  -3
+
+[S4FIELD6]  1 classes; largest = 100.0%
+     23503  -5
+
+-- generated-data signals --
+constant columns: ['X1STU30OCC6', 'X1STU30OCC_STEM2', 'X2STU30OCC6', 'X2STU30OCC_STEM2', 'X3TCREDAP', 'X3TCREDIB', 'X3TXSATMATH', 'X3TXSATREAD', 'X3TXACTCOMP', 'X5HIGHCIP', 'X5HIGH23MAJ', 'X5HIGH10MAJ', 'X6HIGHCIP', 'X6HIGH23MAJ', 'S1OCC30', 'S2OCC30', 'S3FIELD', 'S3FIELD6', 'S4FIELD', 'S4FIELD6']
+near-unique non-ID columns (possible IDs / free text): []
+
+-- first 5 rows --
+   STU_ID  X1TXMTH  X1TXMSCR  X1TXMTSCOR  X1TXMQUINT  X1MTHID  X1MTHUTI  X1MTHEFF  X1MTHINT  X1SCIID  X1SCIUTI  X1SCIEFF  X1SCIINT  X1STU30OCC2  X1STU30OCC6  X1STU30OCC_STEM1  X1STU30OCC_STEM2  X1STUEDEXPCT  X2TXMTH  X2TXMSCR  X2MTHID  X2MTHUTI  X2MTHEFF  X2MTHINT_R  X2SCIID  X2SCIUTI  X2SCIEFF  X2SCIINT  X2STU30OCC2  X2STU30OCC6  X2STU30OCC_STEM1  X2STU30OCC_STEM2  X2STUEDEXPCT  X3TCREDENG  X3TGPAENG  X3TCREDMAT  X3THIMATH  X3TGPAMAT  X3TCREDSCI  X3THISCI  X3TGPASCI  X3TCREDSOCST  X3TGPASOCST  X3TCREDART  X3TGPAART  X3TCREDLANG  X3TGPALANG  X3TCREDCOMPSCI  X3TGPACOMPSCI  X3TCREDCOM  X3TGPACOM  X3TCREDBUS  X3TGPABUS  X3TCREDHELSCI  X3TGPAHELSCI  X3TCREDPUBSER  X3TCREDARCH  X3TCREDAG  X3TGPAAG  X3TCREDHUMSER  X3TCREDENGIN  X3TGPAENGIN  X3TCREDTOT  X3TCREDACAD  X3TCREDCTE  X3TCREDSTEM  X3TCREDAP  X3TCREDIB  X3TGPAACAD  X3TGPASTEM  X3TGPATOT  X3TACADTRCK  X3TXSATMATH  X3TXSATREAD  X3TXACTCOMP  X4ENTMJST  X4ENTRYMAJ23  X4ENTRYMAJ2Y  X4ENTRYMAJ4Y  X5HIGHCIP  X5HIGH23MAJ  X5HIGH10MAJ  X5HIGH11MAJ  X6HIGHCIP  X6HIGH23MAJ  X6HIGH11MAJ  S1MCLUB  S1MCOMPETE  S1MCAMP  S1MTUTOR  S1SCLUB  S1SCOMPETE  S1SCAMP  S1STUTOR  S1SBOOKS  S1WEBINFO  S1SMUSEUM  S1M8GRADE  S1S8GRADE  S1FAVSUBJ  S1LEASTSUBJ  S1EDUEXPECT  S1OCC30  S1OCC30THINK  S2EDUEXP  S2OCC30  S2OCC30THINK  S2OCC30CERTAIN  S2FAVSUBJ  S2FFA  S2HOSA  S2MUSIC  S2ART  S2DRAMA  S2SPORTS  S2CLUB  S2ACADEMIC  S3FIELD  S3FIELD2  S3FIELD6  S4FIELD  S4FIELD2  S4FIELD6
+0   10001   0.8304   50.4919     59.3710           5     1.76      1.31      0.95      0.12     0.91     -0.33      1.10     -0.23           25           -5                 0                -5             8   2.6606   99.1403     0.16      1.21      1.73       -0.21     0.66      0.10      1.43      0.34           25           -5                 0                -5            10         4.0        2.5         6.0          9        3.0         3.0         1        3.0           4.5          4.0         3.5        4.0          2.0         3.5             0.5            2.5         0.0       -1.0         0.0       -1.0            0.0          -1.0            0.0          1.0        0.0      -1.0            0.0           0.0         -1.0        30.0         23.0         3.0          9.5         -5         -5         3.5         3.0        3.5            1           -5           -5           -5         -9            -9            -9            -9         -5           -5           -5           -7         -5           -5            9        0           1        0         0        0           0        0         0         3          3          2          1          1          7            9            8       -5             3        10       -5             3               3          7      0       0        0      1        0         1       1           0       -5        13        -5       -5        -9        -5
+1   10002  -0.2956   35.8045     47.6821           2    -0.57      1.31      0.55     -9.00     0.91      1.69      0.69     -9.00           29           -5                 4                -5            11   1.0097   72.4904    -0.42     -0.50     -0.70       -0.60    -0.54     -0.01     -0.36     -0.83           25           -5                 0                -5             8         4.5        4.0         5.0          6        4.0         3.5         2        4.0           5.0          4.0         0.0       -1.0          4.0         4.0             0.5            4.0         0.0       -1.0         0.0       -1.0            0.0          -1.0            0.0          0.0        0.0      -1.0            0.0           0.0         -1.0        27.0         22.0         1.0          9.0         -5         -5         4.0         4.0        4.0            0           -5           -5           -5          0            16            11             9         -5           -5           -5           -7         -5           -5           -7        0           0        0         0        0           0        0         0         4          3          2          2          1         -9           -9           11       -5             4         8       -5             4               2          1      0       0        1      0        0         0       0           0       -5        13        -5       -5        13        -5
+2   10003   1.2997   56.0477     64.2431           5    -0.57      0.27      0.68      0.86    -0.33      0.10     -0.05      0.93           25           -5                 0                -5            10   1.1852   75.4243    -1.54     -0.90     -0.56       -1.39    -1.74     -0.02     -2.10     -1.61           25           -5                 0                -5            12         4.0        2.0         4.0         11        2.5         4.0         5        2.5           3.0          2.5         1.0        4.0          3.0         3.0             0.0           -1.0         0.0       -1.0         0.0       -1.0            0.0          -1.0            0.0          0.0        0.0      -1.0            0.0           0.0         -1.0        25.0         19.0         0.0          8.0         -5         -5         2.5         2.5        3.0            1           -5           -5           -5          1             8             5             5         -5           -5           -5           -7         -5           -5            5        0           0        0         0        0           0        0         0         2          1          1          3          2          1            7           10       -5             4        12       -5             4               2          1      0       0        0      0        0         1       0           0       -5        42        -5       -5        42        -5
+3   10004  -0.1427   38.0888     49.2690           3     0.60     -0.70      0.10      0.19    -0.33      0.10      0.25     -0.67           29           -5                 4                -5            10  -8.0000   -8.0000    -8.00     -8.00     -8.00       -8.00    -8.00     -8.00     -8.00     -8.00           -8           -5                -8                -5            -8         4.0        4.0         4.0          6        3.5         3.5         1        3.5           5.5          4.0         5.5        4.0          2.0         4.0             0.0           -1.0         0.0       -1.0         0.0       -1.0            0.0          -1.0            0.0          0.0        0.0      -1.0            0.0           1.0          4.0        28.0         24.5         2.0          8.5         -5         -5         4.0         3.5        4.0            0           -5           -5           -5         -7            -7            -7            -7         -5           -5           -5           -6         -5           -5           -7        0           0        0         0        0           0        0         0         1          4          2          1         -9          4           11           10       -5             4        -8       -5            -8              -8         -8     -8      -8       -8     -8       -8        -8      -8          -8       -5        -8        -5       -5        -7        -5
+4   10005   1.1405   54.1762     62.5897           5     0.56     -1.10      0.10     -0.96    -0.33     -1.88      0.25     -1.50           15           -5                 1                -5             6   0.6123   65.8211    -9.00     -9.00     -9.00       -9.00    -9.00     -9.00     -9.00     -7.00           98           -5                 0                -5             9         4.0        3.5         4.0         11        2.5         4.0         2        3.0           5.0          3.5         1.0        3.5          2.0         3.0             1.0            3.5         0.0       -1.0         0.0       -1.0            0.0          -1.0            0.0          0.0        0.0      -1.0            0.0           0.0         -1.0        26.0         20.0         2.0          9.0         -5         -5         3.5         3.0        3.5            1           -5           -5           -5         -7            -7            -7            -7         -5           -5           -5           -6         -5           -5           -7        0           0        0         0        0           0        0         0         1          4          2          2          1         11            1            6       -5             4         9       -5            -7              -7         11      0       0        1      1        0         0       0           0       -5        42        -5       -5        -7        -5

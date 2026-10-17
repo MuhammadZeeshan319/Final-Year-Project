@@ -1,0 +1,72 @@
+===== Student Data1.csv::csv =====
+rows=4925  cols=13
+exact duplicate rows: 0 (0.0%)
+duplicate rows ignoring ID/name/time cols []: 0 (0.0%)
+
+-- columns --
+column                                   dtype      missing%   nuniq  example / range  [uniform-p]
+Acedamic percentage in 10th              float64        0.0%    3638  [60.0 .. 93.0] mean=72.08 sd=5.88  [uniform-p=0.0]
+percentage in 12th                       float64        0.0%    3644  [35.0 .. 93.0] mean=76.20 sd=7.18  [uniform-p=0.0]
+Logical quotient rating                  int64          0.0%       9  [1 .. 9] mean=5.01 sd=2.57  [uniform-p=0.0]
+hackathons                               int64          0.0%       7  [0 .. 6] mean=3.01 sd=2.01  [uniform-p=0.0]
+coding skills rating                     int64          0.0%       9  [1 .. 9] mean=4.99 sd=2.57  [uniform-p=0.0]
+public speaking points                   int64          0.0%       9  [1 .. 9] mean=4.99 sd=2.60  [uniform-p=0.0]
+self-learning capability?                str            0.0%       2  yes | no
+Extra-courses did                        str            0.0%       2  no | yes
+certifications                           str            0.0%       9  r programming | hadoop | python
+workshops                                str            0.0%       8  hacking | web technologies | database security
+Interested subjects                      str            0.0%      10  Software Engineering | networks | cloud computing
+interested career area                   str            0.0%       6  system developer | cloud computing | security
+Suggested Job Role                       str            0.0%      12  Network Security Engineer | Software Engineer | Software Developer
+
+-- candidate TARGET columns (name matches field/major/career/...) --
+
+[Extra-courses did]  2 classes; largest = 50.9%
+      2505  no
+      2420  yes
+
+[Interested subjects]  10 classes; largest = 10.7%
+       529  Software Engineering
+       520  networks
+       517  cloud computing
+       510  Computer Architecture
+       508  IOT
+       495  programming
+       471  data engineering
+       469  hacking
+       453  Management
+       453  parallel computing
+
+[interested career area]  6 classes; largest = 17.5%
+       864  system developer
+       824  cloud computing
+       818  security
+       815  Business process analyst
+       802  testing
+       802  developer
+
+[Suggested Job Role]  12 classes; largest = 12.8%
+       630  Network Security Engineer
+       590  Software Engineer
+       587  Software Developer
+       571  Software Quality Assurance (QA) / Testing
+       519  Database Developer
+       494  Applications Developer
+       488  Mobile Applications Developer
+       412  CRM Technical Developer
+       331  Technical Support
+       148  Systems Security Administrator
+        92  UX Designer
+        63  Web Developer
+
+-- generated-data signals --
+constant columns: []
+near-unique non-ID columns (possible IDs / free text): []
+
+-- first 5 rows --
+   Acedamic percentage in 10th  percentage in 12th  Logical quotient rating  hackathons  coding skills rating  public speaking points self-learning capability? Extra-courses did        certifications         workshops Interested subjects    interested career area      Suggested Job Role
+0                         75.0                68.0                        5           0                     6                       2                       yes                no  information security           testing         programming                   testing  Applications Developer
+1                         75.0                72.0                        7           6                     4                       3                        no               yes     shell programming           testing          Management          system developer  Applications Developer
+2                         75.0                80.0                        5           5                     7                       8                       yes                no      machine learning  game development            networks          system developer  Applications Developer
+3                         75.0                65.0                        3           0                     7                       9                        no               yes            full stack  system designing    data engineering                  security  Applications Developer
+4                         75.0                70.0                        2           6                     6                       1                        no               yes                hadoop   cloud computing                 IOT  Business process analyst  Applications Developer

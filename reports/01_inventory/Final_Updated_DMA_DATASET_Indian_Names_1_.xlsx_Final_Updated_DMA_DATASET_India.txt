@@ -1,0 +1,102 @@
+===== Final_Updated_DMA_DATASET_Indian_Names (1).xlsx::Final_Updated_DMA_DATASET_India =====
+rows=500  cols=14
+exact duplicate rows: 0 (0.0%)
+duplicate rows ignoring ID/name/time cols ['name', 'email_id']: 0 (0.0%)
+
+-- columns --
+column                                   dtype      missing%   nuniq  example / range  [uniform-p]
+name                                     str            0.0%     130  Rohan Chopra | Priya Nair | Priya Verma
+email_id                                 str            0.0%     498  sanjanaiyer@tinypic.com | rohanreddy@woothemes.com | shravani.khurpe@hotmail.c
+year                                     str            0.0%       4  3rd Year | Final Year | 2nd Year
+current_course                           str            0.0%       7  MBA | M.Tech AI | BBA
+technical_skills                         str            0.0%     325  Data Analysis, Cybersecur | Data Analysis, Java | Cloud Computing, Java
+programming_languages                    str            0.0%     160  R | Java | C++
+rating                                   int64          0.0%       5  [1 .. 5] mean=2.95 sd=1.40  [uniform-p=0.0]
+soft_skills                              str            0.0%     133  Problem-Solving, Teamwork | Teamwork, Adaptability | Time Management, Leadersh
+rating.1                                 int64          0.0%       5  [1 .. 5] mean=2.96 sd=1.44  [uniform-p=0.0]
+projects                                 str            0.0%       2  No | Yes
+job_role_aspiration                      str            0.0%       6  Cloud Architect | Software Developer | Data Scientist
+challenges_faced                         str            0.0%       5  No networking opportuniti | Interview anxiety | Lack of experience
+career_support_needed                    str            0.0%       4  Resume workshops | Mentorship programs | Technical skill training
+preferred_learning_method                str            0.0%       4  College curriculum | Self-study | Bootcamp
+
+-- candidate TARGET columns (name matches field/major/career/...) --
+
+[current_course]  7 classes; largest = 17.8%
+        89  MBA
+        86  M.Tech AI
+        77  BBA
+        75  B.Sc Data Science
+        72  B.Tech IT
+        69  B.Tech CSE
+        32  B.Tech
+
+[programming_languages]  160 classes; largest = 6.6%
+        33  R
+        25  Java
+        24  C++
+        21  Python
+        20  C#
+        19  JavaScript
+        15  Go
+         8  C#, Python
+         8  JavaScript, C++
+         8  JavaScript, Java
+         7  C++, JavaScript
+         6  Java, R
+         6  R, Go
+         6  Java, JavaScript
+         6  C#, JavaScript
+         6  C#, R
+         6  C++, Java
+         5  C#, C++
+         5  Go, R
+         5  Java, C#
+         4  Go, C#
+         4  Python, Java, C++
+         4  JavaScript, Python
+         4  Go, C++
+         4  C++, Python
+         4  C#, C++, Python
+         4  R, JavaScript
+         4  C#, JavaScript, Go
+         4  Java, Python
+         4  Python, C++
+         4  Go, Java
+         4  Python, JavaScript
+         4  R, JavaScript, Python
+         4  R, Java
+         4  R, Python
+         3  C++, Python, C#
+         3  Java, Python, Go
+         3  Java, C++, R
+         3  Python, JavaScript, R
+         3  Python, JavaScript, Java
+    ... 120 more classes
+
+[job_role_aspiration]  6 classes; largest = 18.6%
+        93  Cloud Architect
+        92  Software Developer
+        85  Data Scientist
+        78  Cybersecurity Expert
+        77  Business Analyst
+        75  AI Engineer
+
+[career_support_needed]  4 classes; largest = 29.0%
+       145  Resume workshops
+       134  Mentorship programs
+       115  Technical skill training
+       106  Internship opportunities
+
+-- generated-data signals --
+email col email_id: top domains {'hotmail.com': 15, 'gmail.com': 15, 'xing.com': 6, 'cornell.edu': 4, 'devhub.com': 4}  fake-domain share=0.4%
+constant columns: []
+near-unique non-ID columns (possible IDs / free text): []
+
+-- first 5 rows --
+              name                     email_id      year current_course                                            technical_skills programming_languages  rating                                     soft_skills  rating.1 projects job_role_aspiration               challenges_faced     career_support_needed preferred_learning_method
+0  Shravani Khurpe  shravani.khurpe@hotmail.com  3rd Year         B.Tech                   Data Analysis, Python, SQL, Cybersecurity                Go, C#       2                          Teamwork, Adaptability         1      Yes      Data Scientist  Difficulty in resume building          Resume workshops                  Bootcamp
+1    Bhumika Yadav    bhumika.yadav@hotmail.com  3rd Year         B.Tech                                Python, SQL, Cloud Computing         R, Python, C#       3  Problem-Solving, Adaptability, Time Management         4       No    Business Analyst              Interview anxiety       Mentorship programs                Self-study
+2   Nandana Pramod     nandana.pramod@gmail.com  3rd Year         B.Tech                   Java, Cybersecurity, SQL, Cloud Computing        JavaScript, Go       4           Communication, Teamwork, Adaptability         1       No         AI Engineer             Lack of experience  Technical skill training                Self-study
+3     Janvi Thakur     janvi.thakur@hotmail.com  3rd Year         B.Tech  Cybersecurity, Data Analysis, Blockchain, Machine Learning     Python, Java, C++       3         Teamwork, Adaptability, Problem-Solving         4       No      Data Scientist             Lack of experience          Resume workshops                  Bootcamp
+4    Atharva Joshi    atharva.joshi@hotmail.com  3rd Year         B.Tech                 Cloud Computing, Cybersecurity, Python, SQL      Java, Go, Python       4              Leadership, Teamwork, Adaptability         3      Yes      Data Scientist             Lack of experience  Technical skill training        College curriculum

@@ -1,0 +1,19 @@
+# Edu Path - model evaluation (2026-10-17)
+
+Protocol: repeated stratified 5-fold CV x 5 repeats; duplicates removed before CV; preprocessing fitted inside each training fold; values = mean [2.5-97.5 percentile over folds]. Datasets evaluated separately (never merged). Shuffled-label control must equal baseline.
+
+```
+                                        dataset                                 model     n  features                top1                top3             macroF1
+          UCI (Portugal, 16 pre-enrolment cols)        Baseline (largest / 3 biggest)  4423       211               0.269               0.751               0.061
+          UCI (Portugal, 16 pre-enrolment cols)                                LogReg  4423       211 0.399 [0.372-0.421] 0.808 [0.788-0.823] 0.280 [0.253-0.308]
+          UCI (Portugal, 16 pre-enrolment cols)                             GradBoost  4423       211 0.417 [0.393-0.437] 0.816 [0.801-0.828] 0.301 [0.277-0.329]
+          UCI (Portugal, 16 pre-enrolment cols) GradBoost - SHUFFLED labels (control)  4423       211 0.266 [0.253-0.279] 0.744 [0.735-0.752] 0.124 [0.117-0.139]
+ HSLS questionnaire set (what Edu Path can ask)        Baseline (largest / 3 biggest) 10585       259               0.252               0.573               0.057
+ HSLS questionnaire set (what Edu Path can ask)                                LogReg 10585       259 0.502 [0.489-0.513] 0.800 [0.787-0.812] 0.460 [0.445-0.475]
+ HSLS questionnaire set (what Edu Path can ask)                             GradBoost 10585       259 0.513 [0.494-0.532] 0.803 [0.790-0.818] 0.473 [0.451-0.489]
+ HSLS questionnaire set (what Edu Path can ask) GradBoost - SHUFFLED labels (control) 10585       259 0.247 [0.245-0.249] 0.565 [0.556-0.573] 0.074 [0.069-0.084]
+HSLS all pre-choice cols (ceiling, not askable)        Baseline (largest / 3 biggest) 10585      1133               0.252               0.573               0.057
+HSLS all pre-choice cols (ceiling, not askable)                                LogReg 10585      1133 0.369 [0.351-0.387] 0.728 [0.709-0.742] 0.328 [0.309-0.346]
+HSLS all pre-choice cols (ceiling, not askable)                             GradBoost 10585      1133 0.520 [0.502-0.540] 0.809 [0.795-0.819] 0.464 [0.442-0.486]
+HSLS all pre-choice cols (ceiling, not askable) GradBoost - SHUFFLED labels (control) 10585      1133 0.246 [0.243-0.248] 0.565 [0.557-0.569] 0.072 [0.067-0.077]
+```

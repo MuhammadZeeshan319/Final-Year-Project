@@ -1,0 +1,31 @@
+===== Career Dataset.xlsx::Sheet1 =====
+rows=4076  cols=2
+exact duplicate rows: 1900 (46.6%)
+duplicate rows ignoring ID/name/time cols []: 1900 (46.6%)
+
+-- columns --
+column                                   dtype      missing%   nuniq  example / range  [uniform-p]
+Career                                   str            0.0%       6  Development | Artificial Intelligence | Software Development and 
+Skill                                    str            0.0%    2154  Web Development | Research on Artificial In | Web Development, Web base
+
+-- candidate TARGET columns (name matches field/major/career/...) --
+
+[Career]  6 classes; largest = 28.2%
+      1148  Development
+       804  Artificial Intelligence
+       714  Software Development and Engineering
+       580  Security
+       558  Data Science
+       272  User Experience (UX) and User Interface (UI) Design
+
+-- generated-data signals --
+constant columns: []
+near-unique non-ID columns (possible IDs / free text): []
+
+-- first 5 rows --
+                                 Career                                                                                                                                                                                                                                                                                                                                                  Skill
+0  Software Development and Engineering  Web Development, Mobile App Development, Artificial Intelligence (AI) and Machine Learning, Problem Solving and Analysis, Cybersecurity, Operating Systems and Networking, Database Development, Data Analysis andVisualization, API Testing, Performance Testing, Statistical Analysis, ROLLING NOISE FILTER, Broadcast Journalism, Computer Network
+1                           Development                                                                                                                                                                                                                                                            Web Development, Mobile App Development, Problem Solving and Analysis, Database Development
+2                          Data Science                                                                                                                                                                                                                                       Data Analysis and Visualization, Deeplearning, Data Engineering, ProblemSolving, Communication, CriticalThinking
+3                           Development                                                                                                                                                                                                                                                                                                                                        Web Development
+4               Artificial Intelligence                                                                                                                                                   Deep Learning, Machine Learning, Statistics, Data Analysis and Visualization, deepelearning, Statistician, Data Analysis and Visualization, Research on Artificial Intelligence and Machine learning

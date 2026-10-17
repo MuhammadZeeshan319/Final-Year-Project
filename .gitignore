@@ -1,0 +1,35 @@
+# ---- not in this repository ----
+# frontend lives elsewhere
+frontend/
+
+# datasets: 1 GB (GitHub limit is 100 MB per file); public data - rebuild with scripts/ (see README)
+datasets/
+
+# project documents contain personal details (phone numbers, SAP IDs, emails)
+docs/
+
+# local database: user accounts and password hashes - NEVER commit
+backend/data/
+*.db
+*.sqlite
+*.sqlite3
+
+# secrets
+.env
+.env.*
+*.pem
+*.key
+
+# ---- Python / tooling ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db

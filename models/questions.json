@@ -1,0 +1,172 @@
+[
+ {
+  "id": "career",
+  "group": "goals",
+  "text": "Which job would you most like to have at age 30?",
+  "options": [
+   "Doctor, dentist, pharmacist, nurse or other health professional",
+   "Engineer",
+   "Architect",
+   "Software developer, IT or data scientist",
+   "Scientist (biology, chemistry, physics, environment)",
+   "Psychologist, economist or social scientist",
+   "Accountant, banker or finance professional",
+   "Manager or business owner",
+   "Lawyer or judge",
+   "Teacher or lecturer",
+   "Artist, designer, media, journalist or sports",
+   "Social worker or counsellor",
+   "Army, police or security services",
+   "I don't know yet"
+  ]
+ },
+ {
+  "id": "career_certain",
+  "group": "goals",
+  "text": "How sure are you about that job?",
+  "options": [
+   "Very sure",
+   "Fairly sure",
+   "Not sure"
+  ],
+  "skip_if": {
+   "career": "I don't know yet"
+  }
+ },
+ {
+  "id": "career_thought",
+  "group": "goals",
+  "text": "How much have you thought about which job you want at age 30?",
+  "options": [
+   "Not at all",
+   "A little",
+   "Somewhat",
+   "A lot"
+  ],
+  "skip_if": {
+   "career": "I don't know yet"
+  }
+ },
+ {
+  "id": "education_plan",
+  "group": "goals",
+  "text": "What is the highest level of education you plan to complete?",
+  "options": [
+   "Intermediate only",
+   "Diploma or certificate (e.g. DAE)",
+   "Bachelor's degree (BS, BBA, BE, BSc)",
+   "Master's degree (MS, MBA, MPhil)",
+   "Professional degree (MBBS, BDS, Pharm-D, LLB) or PhD",
+   "I don't know"
+  ]
+ },
+ {
+  "id": "fav_subject",
+  "group": "interests",
+  "text": "What is your favourite subject?",
+  "options": [
+   "Biology",
+   "Chemistry",
+   "Physics",
+   "Mathematics",
+   "Computer Science",
+   "English",
+   "Urdu",
+   "Islamiat",
+   "Pakistan Studies / History",
+   "Economics / Civics",
+   "Accounting / Commerce / Business",
+   "Art / Fine Arts",
+   "Physical Education",
+   "Other"
+  ]
+ },
+ {
+  "id": "least_subject",
+  "group": "interests",
+  "text": "What is your least favourite subject?",
+  "options": [
+   "Biology",
+   "Chemistry",
+   "Physics",
+   "Mathematics",
+   "Computer Science",
+   "English",
+   "Urdu",
+   "Islamiat",
+   "Pakistan Studies / History",
+   "Economics / Civics",
+   "Accounting / Commerce / Business",
+   "Art / Fine Arts",
+   "Physical Education",
+   "Other"
+  ]
+ },
+ {
+  "id": "science_person",
+  "group": "interests",
+  "text": "I see myself as a science person.",
+  "options": [
+   "Strongly agree",
+   "Agree",
+   "Disagree",
+   "Strongly disagree"
+  ]
+ },
+ {
+  "id": "math_person",
+  "group": "interests",
+  "text": "I see myself as a maths person.",
+  "options": [
+   "Strongly agree",
+   "Agree",
+   "Disagree",
+   "Strongly disagree"
+  ]
+ },
+ {
+  "id": "science_useful",
+  "group": "interests",
+  "text": "Science will be useful for my future career.",
+  "options": [
+   "Strongly agree",
+   "Agree",
+   "Disagree",
+   "Strongly disagree"
+  ]
+ },
+ {
+  "id": "math_useful",
+  "group": "interests",
+  "text": "Maths will be useful for my future career.",
+  "options": [
+   "Strongly agree",
+   "Agree",
+   "Disagree",
+   "Strongly disagree"
+  ]
+ },
+ {
+  "id": "math_confident",
+  "group": "skills",
+  "text": "I am confident I can do an excellent job on maths tests.",
+  "options": [
+   "Strongly agree",
+   "Agree",
+   "Disagree",
+   "Strongly disagree"
+  ]
+ },
+ {
+  "id": "inter_group",
+  "group": "grades",
+  "text": "Which intermediate group did you study? (A-Level: choose the closest)",
+  "options": [
+   "FSc Pre-Medical",
+   "FSc Pre-Engineering",
+   "ICS (Computer Science)",
+   "I.Com (Commerce)",
+   "FA / Humanities / Arts"
+  ]
+ }
+]

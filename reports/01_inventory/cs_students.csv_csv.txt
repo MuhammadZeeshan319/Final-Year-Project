@@ -1,0 +1,71 @@
+===== cs_students.csv::csv =====
+rows=180  cols=12
+exact duplicate rows: 0 (0.0%)
+duplicate rows ignoring ID/name/time cols ['Name']: 0 (0.0%)
+
+-- columns --
+column                                   dtype      missing%   nuniq  example / range  [uniform-p]
+Student ID                               int64          0.0%     180  [1 .. 180] mean=90.50 sd=52.11  [uniform-p=1.0 <-- looks UNIFORM]
+Name                                     str            0.0%      89  James Wilson | Olivia Clark | Michael Brown
+Gender                                   str            0.0%       2  Male | Female
+Age                                      int64          0.0%       9  [20 .. 37] mean=22.12 sd=2.82  [uniform-p=0.0]
+GPA                                      float64        0.0%       8  [3.2 .. 3.9] mean=3.62 sd=0.18  [uniform-p=0.0]
+Major                                    str            0.0%       1  Computer Science
+Interested Domain                        str            0.0%      27  Artificial Intelligence | Web Development | Cybersecurity
+Projects                                 str            0.0%      65  Network Security | Natural Language Processi | E-commerce Website
+Future Career                            str            0.0%      33  Web Developer | Information Security Anal | Mobile App Developer
+Python                                   str            0.0%       3  Strong | Weak | Average
+SQL                                      str            0.0%       3  Strong | Average | Weak
+Java                                     str            0.0%       3  Strong | Weak | Average
+
+-- candidate TARGET columns (name matches field/major/career/...) --
+
+[Major]  1 classes; largest = 100.0%
+       180  Computer Science
+
+[Future Career]  33 classes; largest = 10.6%
+        19  Web Developer
+        17  Information Security Analyst
+        17  Mobile App Developer
+        16  Database Administrator
+        16  Cloud Solutions Architect
+        14  Software Engineer
+        13  Machine Learning Engineer
+        11  NLP Research Scientist
+         9  Graphics Programmer
+         8  Data Scientist
+         6  Data Analyst
+         6  AI Researcher
+         4  Game Developer
+         2  Bioinformatician
+         2  UX Designer
+         2  Healthcare IT Specialist
+         2  Quantum Computing Researcher
+         1  Machine Learning Researcher
+         1  Security Analyst
+         1  Embedded Software Engineer
+         1  Robotics Engineer
+         1  Ethical Hacker
+         1  Computer Vision Engineer
+         1  DevOps Engineer
+         1  IoT Developer
+         1  NLP Engineer
+         1  VR Developer
+         1  Blockchain Engineer
+         1  SEO Specialist
+         1  Data Privacy Specialist
+         1  Geospatial Analyst
+         1  Distributed Systems Engineer
+         1  Digital Forensics Specialist
+
+-- generated-data signals --
+constant columns: ['Major']
+near-unique non-ID columns (possible IDs / free text): ['Student ID']
+
+-- first 5 rows --
+   Student ID           Name  Gender  Age  GPA             Major        Interested Domain             Projects                 Future Career   Python     SQL     Java
+0           1     John Smith    Male   21  3.5  Computer Science  Artificial Intelligence  Chatbot Development   Machine Learning Researcher   Strong  Strong     Weak
+1           2  Alice Johnson  Female   20  3.2  Computer Science             Data Science       Data Analytics                Data Scientist  Average  Strong     Weak
+2           3   Robert Davis    Male   22  3.8  Computer Science     Software Development   E-commerce Website             Software Engineer   Strong  Strong  Average
+3           4   Emily Wilson  Female   21  3.7  Computer Science          Web Development   Full-Stack Web App                 Web Developer     Weak  Strong   Strong
+4           5  Michael Brown    Male   23  3.4  Computer Science            Cybersecurity     Network Security  Information Security Analyst  Average    Weak   Strong
